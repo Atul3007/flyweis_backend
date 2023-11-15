@@ -25,7 +25,7 @@ app.listen(8000, async () => {
     await connection;
     console.log("Connected to db");
   } catch (error) {
-    console.log("Error occurred");
+    console.log("Error occurred in connecting with db");
   }
   console.log(`Running on 8000`);
 });
